@@ -42,11 +42,16 @@
   },
   "quickapp": {},
   "mp-weixin": {
-    "appid": "",
+    "appid": "wx0932549a2b0f68f8",
     "setting": {
       "urlCheck": false
     },
-    "usingComponents": true
+    "usingComponents": true,
+    "permission": {
+      "scope.userInfo": {
+        "desc": "用于完善用户资料"
+      }
+    }
   },
   "mp-alipay": {
     "usingComponents": true
